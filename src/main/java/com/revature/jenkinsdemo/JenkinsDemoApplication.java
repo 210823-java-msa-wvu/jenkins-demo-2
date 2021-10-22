@@ -16,6 +16,6 @@ public class JenkinsDemoApplication {
 
     @GetMapping
     public String hello() {
-        return "Hello - this is the new test (#2) with continuous deployment!";
+        return "Hello - this is the final test. If you're seeing this you have successful configured github webhooks!";
     }
 }
