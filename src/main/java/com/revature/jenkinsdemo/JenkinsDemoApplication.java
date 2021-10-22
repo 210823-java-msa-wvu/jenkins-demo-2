@@ -16,6 +16,6 @@ public class JenkinsDemoApplication {
 
     @GetMapping
     public String hello() {
-        return "Hello - the test worked!";
+        return "Hello - this is the new test (#2) with continuous deployment!";
     }
 }
